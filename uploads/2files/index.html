@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IKY · Profesorado Internacional de Yoga, Meditación y Kankueb Maya — Cali, Colombia 2026</title>
+<meta name="description" content="Profesorado de Yoga Integral IKY de 200 horas en Cali, Colombia. 21 días de inmersión en yoga, meditación, biomecánica y Kankueb maya. Inicia el 26 de julio de 2026. Reserva con solo el 10%.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header class="header" id="header">
+  <div class="wrap header__bar">
+    <a href="#top" class="brand" aria-label="IKY — Ishka Kankueb Yoga">
+      <span class="brand__badge"><img src="assets/img/logo.png" alt="IKY"></span>
+      <span class="brand__txt">IKY<small>Ishka Kankueb Yoga</small></span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#sistema">El Sistema</a>
+      <a href="#programa">Programa</a>
+      <a href="#instructores">Instructores</a>
+      <a href="#hospedaje">Hospedaje</a>
+      <a href="#precios">Precios</a>
+      <a href="#testimonios">Testimonios</a>
+      <a href="#agenda">Agenda</a>
+    </nav>
+    <div class="header__actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema claro/oscuro">
+        <svg class="ico-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <svg class="ico-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" stroke-linecap="round"/></svg>
+      </button>
+      <a href="#precios" class="btn btn--gold btn--sm">Reserva tu cupo</a>
+      <button class="burger" id="burger" aria-label="Menú"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#sistema"><span>01</span>El Sistema</a>
+  <a href="#programa"><span>02</span>Programa</a>
+  <a href="#instructores"><span>03</span>Instructores</a>
+  <a href="#hospedaje"><span>04</span>Hospedaje</a>
+  <a href="#precios"><span>05</span>Precios</a>
+  <a href="#testimonios"><span>06</span>Testimonios</a>
+  <a href="#agenda"><span>07</span>Agenda</a>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero__bg"><img src="assets/img/hero-bg.jpg" alt="Ishka Center, Cali"></div>
+  <div class="hero__veil"></div>
+  <div class="hero__inner">
+    <span class="eyebrow">Profesorado internacional · 300 horas</span>
+    <h2 class="hero__title">Transforma tu vida y conviértete en <br> instructor del<em>sistema de vanguardia</em></h2>
+    <p class="hero__sub">21 días de inmersión profunda en yoga, meditación, biomecánica y la disciplina maya del Kankueb. Una metodología única creada por C.R. Kan, en el corazón verde de Cali, Colombia.</p>
+    
+    <div class="hero__meta">
+      <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M3 9h18M8 2v4M16 2v4" stroke-linecap="round"/></svg> Inicia 26 de julio, 2026</span>
+      <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.3-7-11a7 7 0 0 1 14 0c0 5.7-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg> Cali · Colombia</span>
+      <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" stroke-linecap="round"/></svg> 21 días · 22 noches</span>
+      <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5v14" stroke-linecap="round"/></svg> Español + traducción al inglés</span>
+    </div>
+    <div class="hero__cta">
+      <a href="#precios" class="btn btn--gold">Reserva con solo el 10%</a>
+      <a href="#agenda" class="btn btn--ghost">Agenda con el Maestro</a>
+    </div>
+    <div class="hero__rating">
+      <span class="stars">★★★★★</span>
+      <span><strong>+675 reseñas</strong> en Google · El único centro en Colombia que enseña Kankueb maya</span>
+    </div>
+    <div class="countdown" id="countdown" aria-label="Cuenta regresiva al inicio">
+      <div class="cd"><b data-cd="d">00</b><span>Días</span></div>
+      <div class="cd"><b data-cd="h">00</b><span>Horas</span></div>
+      <div class="cd"><b data-cd="m">00</b><span>Min</span></div>
+      <div class="cd"><b data-cd="s">00</b><span>Seg</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST MARQUEE ============ -->
+<div class="trust">
+  <div class="trust__track" id="trustTrack">
+    <!-- duplicated in JS -->
+  </div>
+</div>
+
+<!-- ============ EL SISTEMA ============ -->
+<section class="band" id="sistema">
+  <div class="wrap">
+    <div class="shead reveal">
+      <span class="eyebrow">El Sistema IKY</span>
+      <h2 class="section-title">Yoga para la <span class="gold">humanidad actual</span></h2>
+      <p class="lead">IKY presenta un enfoque del yoga diferente: más profundo, sencillo y adaptable a las condiciones físicas y mentales de cada persona. Prescindiendo de las visiones religiosas y "pseudo - espirituales", el sistema IKY Integra el yoga clásico con la biomecánica y la neurociencia modernas.</p>
+    </div>
+    <div class="feature-grid">
+         <article class="fcard reveal d3">
+        <div class="fcard__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3C7 9 5 12 5 15a7 7 0 0 0 14 0c0-3-2-6-7-12Z"/></svg></div>
+        <span class="fcard__n"></span>
+        <h3>Tantra Kundalini</h3>
+        <p>La filosofía y técnicas de meditación de Swami Satyananda Saraswati de la Bihar School of Yoga: asana, vinyasa, pranayama, kriya, mudras, bandhas, yoga nidra, prana vidya y meditación para la gestión del cuerpo, la mente, las emociones y la energía.</p>
+      </article>
+       <article class="fcard reveal d2">
+        <div class="fcard__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1" stroke-linecap="round"/></svg></div>
+        <span class="fcard__n"></span>
+        <h3>Método Feldenkrais</h3>
+        <p>Avanzado sistema de autoconciencia a través del movimiento, profundamente eficaz para lograr movimientos y posturas avanzados, mientras incrementa la flexibilidad y la agilidad del cuerpo, y se solucionan problema, limitaciones y lesiones osteomusculares.</p>
+      </article>
+      <article class="fcard reveal d1">
+        <div class="fcard__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 9a3 3 0 1 1 3 3H4M9 15a2.5 2.5 0 1 0 2.5 2.5V15M14 5a2.5 2.5 0 1 1 2.5 2.5H6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <span class="fcard__n"></span>
+        <h3>Biomecánica</h3>
+        <p>Profundo aprendizaje experiencial de la anatomía y la biomecánica aplicadas al yoga.</p>
+      </article>
+      
+      <article class="fcard reveal">
+        <div class="fcard__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2c2.5 3 4 5.5 4 8a4 4 0 0 1-8 0c0-2.5 1.5-5 4-8Z"/><path d="M12 14c1.5 1.5 2.5 3 2.5 4.5a2.5 2.5 0 0 1-5 0c0-1.5 1-3 2.5-4.5Z"/></svg></div>
+        <span class="fcard__n"></span>
+        <h3>Kankueb Maya</h3>
+        <p>El sistema energético de las tradiciones mesoamericanas prehispánicas, transmitido por los sabios mayas Don Carlos y Don Gerardo Barrios. Conviértete en uno de los privilegiados profesores de "yoga maya" y Kankueb Dance.</p>
+      </article>
+     
+    </div>
+  </div>
+</section>
+
+<!-- ============ 4 ELEMENTOS / MANDALA ============ -->
+<section class="band band--alt">
+  <div class="wrap">
+    <div class="elements">
+      <!-- VIDEO 4 ELEMENTOS · reemplaza el bloque .media-video por tu <iframe> de YouTube
+           ej: <iframe src="https://www.youtube.com/embed/TU_VIDEO_ID" allowfullscreen></iframe> -->
+      <div class="media-video reveal" id="elementsVideo" data-yt="">
+        <img src="assets/img/g13.webp" alt="El método IKY en movimiento">
+        <div class="media-video__play"><span class="pbtn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></div>
+        <div class="media-video__tag">Video del método IKY · próximamente</div>
+      </div>
+      <div>
+        <span class="eyebrow reveal">Modelo pedagógico</span>
+        <h2 class="section-title reveal" style="font-size:clamp(1.8rem,4vw,2.8rem)">Los 4 elementos del ser</h2>
+        <p class="lead reveal" style="margin-bottom:24px">Una pedagogía que asocia cada práctica a uno de los cuatro aspectos del ser, para que aprendas y enseñes de forma fácil, creativa y rápida.</p>
+        <div class="el-list">
+          <div class="el el--fuego reveal"><div class="el__dot">F</div><div><h4>Fuego · Energético</h4><p>Kankueb, prana vidya, kriyas y manejo de la energía para el empoderamiento personal.</p></div></div>
+          <div class="el el--aire reveal d1"><div class="el__dot">A</div><div><h4>Aire · Intelectual</h4><p>Exclusivo y avanzado sistema de Drishtis que estimulan el sistema nervioso para facilitar el desarrollo del cuerpo y la mente. Historia y filosofía del yoga y del Kankueb maya, anatomía y biomecánica del yoga, con visión científica y crítica.</p></div></div>
+          <div class="el el--tierra reveal d2"><div class="el__dot">T</div><div><h4>Tierra · Físico</h4><p>Organización y alineación avanzada de asanas y desarrollo de las secuencias posturales, con base en la claridad que la biomecánica enseña sobre el manejo de apoyos, la organización del esqueleto y la relajación muscular.</p></div></div>
+          <div class="el el--agua reveal d3"><div class="el__dot">Ag</div><div><h4>Agua · Emocional/relacional</h4><p>La aplicación de los Drishtis avanzados del sistema IKY en la práctica de asanas, pranayamas, mudras, meditación y el Kankueb Dance, te ayudan a mejorar sustancialmente tu gestión emocional, y la forma de relacionarte contigo mismo y el mundo</p></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FILOSOFÍA RAIL ============ -->
+<section class="band">
+  <div class="wrap">
+    <div class="shead center reveal">
+      <span class="eyebrow" style="justify-content:center">Nuestra filosofía</span>
+      <h2 class="section-title">Lo que nos hace <span class="gold">distintos</span></h2>
+      <p class="lead">Una metodología que no encontrarás en ningún otro lugar: práctica, funcional y profundamente humana.</p>
+    </div>
+  </div>
+  <div class="wrap reveal">
+    <div class="qrail">
+      <div class="qcard"><img src="assets/img/quote-5.jpg" alt="El sistema IKY integra yoga clásico con biomecánica y neuroplasticidad"></div>
+      <div class="qcard"><img src="assets/img/quote-6.jpg" alt="Principios del Tantra Kundalini Yoga y el Kankueb maya"></div>
+      <div class="qcard"><img src="assets/img/quote-4.jpg" alt="Método Feldenkrais para la movilidad y la salud osteomuscular"></div>
+      <div class="qcard"><img src="assets/img/quote-8.jpg" alt="Alcanza estados de meditación de manera natural y sencilla"></div>
+      <div class="qcard"><img src="assets/img/quote-1.jpg" alt="Herramientas y métodos avanzados para tus procesos mentales y emocionales"></div>
+      <div class="qcard"><img src="assets/img/quote-2.jpg" alt="Yoga para la humanidad actual"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROGRAMA ============ -->
+<section class="band band--alt" id="programa">
+  <div class="wrap">
+    <div class="shead reveal">
+      <span class="eyebrow">El Programa</span>
+      <h2 class="section-title">300 horas que <span class="gold">transforman</span></h2>
+      <p class="lead">Durante estos 21 días recibirás las técnicas más sofisticadas y funcionales del yoga contemporáneo, junto al conocimiento exclusivo del Kankueb maya.</p>
+    </div>
+    <div class="prog">
+      <div class="prog__col reveal">
+        <h3><span class="k">◆</span> Técnicas que dominarás</h3>
+        <div class="taglist">
+          <span class="tag">Asana</span><span class="tag">Vinyasa</span><span class="tag">Pranayama</span>
+          <span class="tag">Prananigraha</span><span class="tag">Meditación</span><span class="tag">Yoga Nidra</span>
+          <span class="tag">Prana Vidya</span><span class="tag">Chakra Shuddhi</span><span class="tag">Prana Shuddhi</span>
+          <span class="tag">Mudra</span><span class="tag">Bandha</span><span class="tag">Mantra</span>
+          <span class="tag">Kriya</span><span class="tag">Drishti</span><span class="tag">Sat Karmas</span>
+          <span class="tag">Vyayam</span><span class="tag">Maypayat</span><span class="tag">Vukub Kankueb</span><span class="tag">Kankueb Dance</span><span class="tag">Aj Kankueb</span>
+        </div>
+        <h3 style="margin-top:34px"><span class="k">◆</span> Temas de estudio</h3>
+        <div class="taglist">
+          <span class="tag">Hatha Yoga</span><span class="tag">Tantra kundalini yoga</span><span class="tag">Kriya Yoga</span>
+          <span class="tag">Raja Yoga</span><span class="tag">Bhakti Yoga</span><span class="tag">Karma Yoga</span>
+          <span class="tag">Laya Yoga</span><span class="tag">Nada Yoga</span><span class="tag">Mantra Yoga</span><span class="tag">Swara Yoga</span>
+          <span class="tag">Yoga Sutra de Patanjali</span><span class="tag">Anatomía</span><span class="tag">Biomecánica</span>
+          <span class="tag">Biopsicología</span><span class="tag">Cosmovisión Maya</span><span class="tag">Calendario Maya</span><span class="tag">Kankueb Maya</span>
+        </div>
+      </div>
+      <div class="prog__col reveal d1">
+        <h3><span class="k">◆</span> Lo que obtendrás</h3>
+        <ul class="checks">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Proceso profundo de autoaprendizaje y cultivo de la autoridad interna.</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Estrategias de movimiento eficaces para mayor movilidad y agilidad corporal.</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Habilidades avanzadas en la práctica y enseñanza del yoga físico, mental, emocional y energético.</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Descubre tu signo maya de nacimiento y recibe tu activación con el fuego sagrado (Kotzij).</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Capacidad de impartir clases a individuos, grupos, empresas y organizaciones.</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Certificación y registro internacional como Instructor Integral IKY (RIPEY.NET).</li>
+        </ul>
+        <div class="duo">
+          <img src="assets/img/g15.webp" alt="Enseñanza del sistema IKY">
+          <p><b style="color:var(--text)">Certificación internacional.</b> Otorgada por el Instituto de Altos Estudios en Yoga IKY, con énfasis en Kankueb maya y biomecánica.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INSTRUCTORES ============ -->
+<section class="band" id="instructores">
+  <div class="wrap">
+    <div class="shead center reveal">
+      <span class="eyebrow" style="justify-content:center">Conoce a los maestros</span>
+      <h2 class="section-title">Quienes te <span class="gold">guiarán</span></h2>
+    </div>
+    <div class="teachers">
+      <article class="tcard reveal">
+        <div class="tcard__ph"><img src="assets/img/g9.webp" alt="Chakra Raja Kan"></div>
+        <div>
+          <span class="tcard__role">Director académico · Creador del sistema</span>
+          <h3>Chakra Raja Kan</h3>
+          <p>Formado en Satyananda yoga, certificado en Yoga Kai, Kamal Be Maya, maestro del Método Feldenkrais®, especialista en biomecánica aplicada al yoga.</p>
+        </div>
+      </article>
+      <article class="tcard reveal d1">
+        <div class="tcard__ph"><img src="assets/img/g1.webp" alt="Simon Roa"></div>
+        <div>
+          <span class="tcard__role">Instructor IKY desde 2009</span>
+          <h3>Simon Roa</h3>
+          <p>Licenciado en Lenguas extranjeras aplicadas a la traducción de Université Bordeaux Montaigne, Francia.
+Profesor de Ishka Kankueb Yoga, meditación y movimiento somático (IKYnesis).
+Profesor de Danza Kankueb y técnicas de respiración.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALERÍA / MEMORIAS ============ -->
+<section class="band band--alt">
+  <div class="wrap">
+    <div class="shead reveal">
+      <span class="eyebrow">IKY Memories · desde 2009</span>
+      <h2 class="section-title">Más de <span class="gold">30 países</span>, una sola familia</h2>
+      <p class="lead">Cada imagen guarda la historia de un camino recorrido desde el año 2009: un viaje de 21 días hacia la conciencia, el cuerpo y la mente. Graduados de todo el mundo.</p>
+    </div>
+    <div class="gallery reveal">
+      <a href="assets/img/g0.webp" class="wide tall" target="_blank" rel="noopener"><img src="assets/img/g0.webp" alt="Meditación grupal"></a>
+      <a href="assets/img/g13.webp" target="_blank" rel="noopener"><img src="assets/img/g13.webp" alt="Clase de asana"></a>
+      <a href="assets/img/g11.webp" target="_blank" rel="noopener"><img src="assets/img/g11.webp" alt="Ceremonia de fuego"></a>
+      <a href="assets/img/mem-3.jpg" class="tall" target="_blank" rel="noopener"><img src="assets/img/mem-3.jpg" alt="Graduados IKY"></a>
+      <a href="assets/img/g14.webp" target="_blank" rel="noopener"><img src="assets/img/g14.webp" alt="Práctica de inversiones"></a>
+      <a href="assets/img/g10.webp" target="_blank" rel="noopener"><img src="assets/img/g10.webp" alt="Círculo de fuego"></a>
+      <a href="assets/img/g12.webp" class="wide" target="_blank" rel="noopener"><img src="assets/img/g12.webp" alt="Meditación en el shala"></a>
+      <a href="assets/img/mem-7.jpg" target="_blank" rel="noopener"><img src="assets/img/mem-7.jpg" alt="Promoción IKY"></a>
+      <a href="assets/img/g8.webp" target="_blank" rel="noopener"><img src="assets/img/g8.webp" alt="Ishka Center, jardín"></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOSPEDAJE ============ -->
+<section class="band" id="hospedaje">
+  <div class="wrap">
+    <div class="shead reveal">
+      <span class="eyebrow">Hospedaje · El destino</span>
+      <h2 class="section-title">Tu hogar por <span class="gold">22 noches</span></h2>
+      <p class="lead">Un centro de yoga rural al sur de Cali, rodeado de naturaleza, privado y tranquilo. Elige la acomodación que más resuene contigo — todas conviven en el mismo jardín y la misma energía.</p>
+    </div>
+    <div class="acc-grid">
+        <article class="acc reveal"><div class="acc__img"><img src="assets/img/g16.webp" alt="Monoambiente de lujo"></div><div class="acc__b"><h4>Monoambiente de lujo</h4><p>Jardín privado, tina, cama doble y hamacas. La experiencia más exclusiva.</p></div></article>
+        <article class="acc reveal d3"><div class="acc__img"><img src="assets/img/g19.webp" alt="Apartaestudio privado"></div><div class="acc__b"><h4>Apartaestudio privado</h4><p>Loft con baño y ducha privados. Adaptable para amigos o grupos.</p></div></article>
+           <article class="acc reveal d2"><div class="acc__img"><img src="assets/img/g17.webp" alt="Habitación privada"></div><div class="acc__b"><h4>Habitación privada</h4><p>Tu propio espacio con baño y ducha compartidos.</p></div></article>
+      <article class="acc reveal d1"><div class="acc__img"><img src="assets/img/g18.webp" alt="Dormitorio compartido"></div><div class="acc__b"><h4>Dormitorio compartido</h4><p>Camas en habitación compartida</p></div></article>
+      <article class="acc reveal"><div class="acc__img"><img src="assets/img/g8.webp" alt="Camping"></div><div class="acc__b"><h4>CAMPING</h4><p>Acampa bajo techo en nuestro hamacal o en nuestro amplio jardín en contacto directo con la naturaleza.</p></div></article>
+      <article class="acc reveal d1"><div class="acc__img"><img src="assets/img/g0.webp" alt="Alimentación"></div><div class="acc__b"><h4>Cocina natural con alimentos de nuestra huerta</h4><p>Desayuno, almuerzo y cena diarios. Vegetariana, ovo-lacto y vegana disponibles.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRECIOS ============ -->
+<section class="band band--alt" id="precios">
+  <div class="wrap">
+    <div class="shead center reveal">
+      <span class="eyebrow" style="justify-content:center">Inversión</span>
+      <h2 class="section-title">Elige tu <span class="gold">acomodación</span></h2>
+    </div>
+    <div class="same-note reveal">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <p><b>Lo único que cambia es tu acomodación.</b> La formación completa de +300 horas, las enseñanzas, las comidas diarias, los talleres y la certificación son <b>los mismos para todos</b>, impartidos por el mismo equipo. Tú eliges cómo quieres descansar.</p>
+    </div>
+
+    <!-- BOTONES "RESERVAR": pega tus links de Stripe en STRIPE_LINKS dentro de assets/js/app.js -->
+    <div class="price-grid">
+      <article class="plan reveal">
+        <div class="plan__img"><span class="plan__tag">Camping</span><img src="assets/img/g8.webp" alt=""><span class="plan__name">Tu propia tienda</span></div>
+        <div class="plan__b">
+          <div class="plan__price"><b>$1.950.000</b><span>COP</span></div>
+          <div class="plan__usd">≈ US$590 <small>Separas con el 10% · el saldo lo pagas a tu llegada</small></div>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Espacio bajo techo o en el jardín</li>
+             <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Baños y duchas compartidos</li>
+          </ul>
+          <a href="#" data-stripe="carpa" class="btn btn--ghost btn--sm">Reservar con el 10%</a>
+        </div>
+      </article>
+
+      <article class="plan reveal d1">
+        <div class="plan__img"><span class="plan__tag">Compartido</span><img src="assets/img/g18.webp" alt=""><span class="plan__name">Dormitorio compartido</span></div>
+        <div class="plan__b">
+          <div class="plan__price"><b>$2.950.000</b><span>COP</span></div>
+          <div class="plan__usd">≈ US$850 <small>Separas con el 10% · el saldo lo pagas a tu llegada</small></div>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Habitación compartida</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Baños y duchas compartidos</li>
+          </ul>
+          <a href="#" data-stripe="dormitorio" class="btn btn--ghost btn--sm">Reservar con el 10%</a>
+        </div>
+      </article>
+
+      <article class="plan plan--feat reveal d2">
+        <div class="plan__img"><span class="plan__tag">Más elegida</span><img src="assets/img/g17.webp" alt=""><span class="plan__name">Habitación privada</span></div>
+        <div class="plan__b">
+          <div class="plan__price"><b>$3.950.000</b><span>COP</span></div>
+          <div class="plan__usd">≈ US$1.150 <small>Separas con el 10% · el saldo lo pagas a tu llegada</small></div>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Habitación privada</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Baños y duchas compartidos</li>
+          </ul>
+          <a href="#" data-stripe="privada" class="btn btn--gold btn--sm">Reservar con el 10%</a>
+        </div>
+      </article>
+
+      <article class="plan reveal d3">
+        <div class="plan__img"><span class="plan__tag">Privado</span><img src="assets/img/g16.webp" alt=""><span class="plan__name">Loft privado</span></div>
+        <div class="plan__b">
+          <div class="plan__price"><b>$4.950.000</b><span>COP</span></div>
+          <div class="plan__usd">≈ US$1.450 <small>Separas con el 10% · el saldo lo pagas a tu llegada</small></div>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Baño y cocina privados dentro del Loft</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Aseo y lavado de ropa incluidos</li>
+          </ul>
+          <a href="#" data-stripe="apartaestudio" class="btn btn--ghost btn--sm">Reservar con el 10%</a>
+        </div>
+      </article>
+
+      
+    </div>
+  </div>
+</section>
+
+<!-- ============ INCLUYE / NO INCLUYE ============ -->
+<section class="band">
+  <div class="wrap">
+    <div class="shead reveal">
+      <span class="eyebrow">El paquete</span>
+      <h2 class="section-title">Todo lo que <span class="gold">incluye</span></h2>
+    </div>
+    <div class="incl">
+      <div class="incl__box yes reveal">
+        <h3><span class="ic">✓</span> Incluido</h3>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Formación de 21 días (+300h)</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Énfasis en biomecánica y Kankueb maya</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> 22 noches de alojamiento</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Desayuno, almuerzo y cena diarios</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Tuj - ritual de baño de vapor Maya </li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Kotzij - Ceremonia de fuego Maya </li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Diploma / certificación internacional</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Material académico digital propio: videos, podcast y pdfs </li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Mat de yoga personal</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Traducción simultánea español-inglés</li>
+        </ul>
+      </div>
+      <div class="incl__box no reveal d1">
+        <h3><span class="ic">✕</span> No incluye</h3>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12" stroke-linecap="round"/></svg> Vuelos y transporte aéreo</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12" stroke-linecap="round"/></svg> Productos de higiene personal</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12" stroke-linecap="round"/></svg> Tienda de campaña y equipo de camping</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12" stroke-linecap="round"/></svg> Comidas durante los días libres</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12" stroke-linecap="round"/></svg> Consumos fuera del predio</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12" stroke-linecap="round"/></svg> Transporte público en días libres</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIOS (LUXURY) ============ -->
+<section class="band testi" id="testimonios">
+  <div class="wrap">
+    <div class="shead center reveal">
+      <span class="eyebrow" style="justify-content:center">Voces de nuestros egresados</span>
+      <h2 class="section-title">Historias que <span class="gold">hablan por sí solas</span></h2>
+    </div>
+
+    <div class="gscore reveal">
+      <div class="gscore__g">
+        <span class="glogo"><span class="b">G</span><span class="r">o</span><span class="y">o</span><span class="b">g</span><span class="g">l</span><span class="r">e</span></span>
+      </div>
+      <div class="gscore__sep"></div>
+      <div class="gscore__col">
+        <span class="gscore__num">5.0</span>
+        <span class="stars">★★★★★</span>
+      </div>
+      <div class="gscore__col">
+        <b style="font-family:var(--font-display);font-size:1.4rem">+675</b>
+        <small>reseñas verificadas</small>
+      </div>
+      <div class="gscore__sep"></div>
+      <div class="gscore__badge">
+        <b>#1 en el Planeta</b>
+        <span>Pionero en el mundo en la enseñanza de la biomecánica avanzada para el yoga y la aplicación sofísticada de antar drishtis. Única escuela en el planeta donde se enseña el Kankueb Maya</span>
+      </div>
+    </div>
+
+    <div class="testi-rail reveal">
+      <div class="review"><img src="assets/img/review-2.jpg" alt="Reseña de Maggi Ríos"><div class="review__cap"><span class="stars">★★★★★</span><b>Maggi Ríos</b> · Egresada</div></div>
+      <div class="review"><img src="assets/img/review-5.jpg" alt="Reseña de Mifthan Rincón"><div class="review__cap"><span class="stars">★★★★★</span><b>Mifthan Rincón</b> · Egresado</div></div>
+      <div class="review"><img src="assets/img/review-3.jpg" alt="Reseña de Giuliana Reynoso"><div class="review__cap"><span class="stars">★★★★★</span><b>Giuliana Reynoso</b> · Egresada</div></div>
+      <div class="review"><img src="assets/img/review-1.jpg" alt="Reseña de Carolina Pava"><div class="review__cap"><span class="stars">★★★★★</span><b>Carolina Pava</b> · Egresada</div></div>
+      <div class="review"><img src="assets/img/review-4.jpg" alt="Reseña de Nathan Arriola"><div class="review__cap"><span class="stars">★★★★★</span><b>Nathan Arriola</b> · Egresado</div></div>
+    </div>
+
+    <!-- VIDEO TESTIMONIOS · reemplaza cada .vtest por tu <iframe> de YouTube/Instagram
+         ej: <iframe src="https://www.youtube.com/embed/TU_VIDEO_ID" allowfullscreen></iframe> -->
+    <div class="shead center reveal" style="margin:clamp(48px,6vw,70px) auto 0">
+      <span class="eyebrow" style="justify-content:center">En sus propias palabras</span>
+      <h3 class="section-title" style="font-size:clamp(1.6rem,3.6vw,2.4rem)">Testimonios en <span class="gold">video</span></h3>
+    </div>
+    <div class="vtest-grid reveal">
+      <div class="vtest" data-video=""><span class="pbtn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span><b>Egresado IKY</b><p>Espacio para video</p><span class="src">YouTube / IG</span></div>
+      <div class="vtest" data-video=""><span class="pbtn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span><b>Egresada IKY</b><p>Espacio para video</p><span class="src">YouTube / IG</span></div>
+      <div class="vtest" data-video=""><span class="pbtn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span><b>Egresado IKY</b><p>Espacio para video</p><span class="src">YouTube / IG</span></div>
+      <div class="vtest" data-video=""><span class="pbtn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span><b>Egresada IKY</b><p>Espacio para video</p><span class="src">YouTube / IG</span></div>
+    </div>
+
+    <!-- Proof split: Google + Book Yoga Retreat -->
+    <div class="proof reveal" style="margin-top:18px">
+      <div class="proof__card">
+        <span class="eyebrow">Google Business</span>
+        <h3>Ishka Center - yoga, motion & wellness school</h3>
+        <div class="proof__stat"><b>5.0</b><span class="stars" style="font-size:1.1rem">★★★★★</span></div>
+        <p>Más de +675 reseñas con calificación perfecta. Estudiantes de más de 30 países nos eligen desde 2009. Lee lo que dicen quienes ya vivieron la experiencia.</p>
+        <a href="https://share.google/b1KImHfj9xA5qail7" target="_blank" rel="noopener" class="btn btn--ghost btn--sm">Ver reseñas en Google →</a>
+      </div>
+      <div class="proof__card byr">
+        <span class="eyebrow">Book Yoga Retreats</span>
+        <h3>También en la plataforma #1 mundial</h3>
+        <p>Nuestro profesorado está listado en BookYogaRetreats, la plataforma internacional líder para formaciones y retiros de yoga. Lee las más de 96 reseñas con una altísima puntuación.</p>
+        <a href="https://www.bookyogaretreats.com/es/iky/23-dias-de-profesorado-de-yoga-integral-iky-meditacion-y-kankueb-maya-de-200-horas-en-cali-colombia#reviews" target="_blank" rel="noopener" class="btn btn--gold btn--sm">Ver reseñas en Book Yoga Retreat →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AGENDA / CAL.COM ============ -->
+<section class="band band--alt" id="agenda">
+  <div class="wrap">
+    <div class="shead center reveal">
+      <span class="eyebrow" style="justify-content:center">Habla con el Maestro</span>
+      <h2 class="section-title">Agenda una <span class="gold">videollamada</span></h2>
+      <p class="lead">¿Tienes dudas antes de inscribirte? Reserva una conversación personal y sin compromiso con Chakra Raja Kan, creador y director del programa.</p>
+    </div>
+    <div class="agenda">
+      <div class="cal-col reveal d1">
+        <div class="cal-col__head">
+          <span class="ph-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M3 9h18M8 2v4M16 2v4M9 14l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <div><h3>Elige tu horario</h3><span>Videollamada con el Maestro · 1:1</span></div>
+        </div>
+        <div class="cal-box">
+          <!-- Cal inline embed code begins -->
+          <div style="width:100%;height:100%;overflow:scroll" id="my-cal-inline-maestro"></div>
+          <!-- Cal inline embed code ends -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MAPA / CÓMO LLEGAR ============ -->
+<section class="band">
+  <div class="wrap">
+    <div class="shead reveal">
+      <span class="eyebrow">Ubicación</span>
+      <h2 class="section-title">Cómo <span class="gold">llegar</span></h2>
+    </div>
+    <div class="mapwrap">
+      <div class="mapbox reveal">
+        <iframe title="Mapa Ishka Center" loading="lazy" src="https://www.google.com/maps?q=Ishka%20Center%20Jamundi%20Cali%20Colombia&output=embed"></iframe>
+      </div>
+      <div class="howto reveal d1">
+        <h3>Ishka Center - yoga, motion & wellness school</h3>
+        <div class="addr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.3-7-11a7 7 0 0 1 14 0c0 5.7-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg> Carrera 129 #25-181, Santiago de Cali, Valle del Cauca, Colombia.</div>
+        <div class="howto__route">
+          <div class="route"><div class="route__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 16l2-7h14l2 7M5 16v3M19 16v3" stroke-linecap="round"/><circle cx="7.5" cy="16" r="1.5"/><circle cx="16.5" cy="16" r="1.5"/></svg></div><div><b>Desde el aeropuerto</b><span>Aeropuerto Alfonso Bonilla Aragón (CLO), a 28 km. Toma el shuttle al terminal de Cali o directamente un taxi hasta Ishka Center.</span></div></div>
+          <div class="route"><div class="route__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="5" width="16" height="12" rx="2"/><path d="M4 11h16M8 17v2M16 17v2" stroke-linecap="round"/></svg></div><div><b>En bus - desde el terminal de Cali</b><span>Bus intermunicipal a Jamundí. Pide parar en el restaurante La Mazorca Tierna.</span></div></div>
+          <div class="route"><div class="route__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 17h14l-1.5-6H6.5L5 17ZM7 17v2M17 17v2" stroke-linecap="round"/></svg></div><div><b>En taxi</b><span>Desde el aeropuerto o el terminal. </span></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REDES SOCIALES ============ -->
+<section class="band band--alt">
+  <div class="wrap">
+    <div class="shead center reveal">
+      <span class="eyebrow" style="justify-content:center">Síguenos</span>
+      <h2 class="section-title">Vive la comunidad <span class="gold">IKY</span></h2>
+      <p class="lead">Movimiento consciente, meditación y memorias del instructorado. Te mostramos graduados de todo el mundo — tú también puedes ser parte.</p>
+    </div>
+    <div class="social-grid">
+      <a href="https://www.instagram.com/iky.system/" target="_blank" rel="noopener" class="snet snet--ig reveal">
+        <span class="snet__go"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <div class="snet__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></div>
+        <div><h4>Instagram</h4><span class="handle">@iky.system</span><p>El sistema IKY, prácticas y filosofía.</p></div>
+      </a>
+      <a href="https://www.facebook.com/yoga.iky" target="_blank" rel="noopener" class="snet snet--fb reveal d1">
+        <span class="snet__go"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <div class="snet__ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12Z"/></svg></div>
+        <div><h4>Facebook</h4><span class="handle">/yoga.iky</span><p>Reels, testimonios y eventos del centro.</p></div>
+      </a>
+      <a href="https://www.tiktok.com/@yoga.iky" target="_blank" rel="noopener" class="snet snet--tt reveal d2">
+        <span class="snet__go"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        <div class="snet__ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 3c.3 2.1 1.5 3.6 3.5 3.9v2.6c-1.3 0-2.5-.4-3.5-1v6.4a5.6 5.6 0 1 1-5.6-5.6c.3 0 .6 0 .9.1v2.7a2.9 2.9 0 1 0 2 2.8V3h2.7Z"/></svg></div>
+        <div><h4>TikTok</h4><span class="handle">@yoga.iky</span><p>Movimiento consciente en formato corto.</p></div>
+      </a>
+      <a href="https://www.instagram.com/chakrarajakan/" target="_blank" rel="noopener" class="snet snet--ig reveal" style="grid-column:1/-1;min-height:auto;flex-direction:row;align-items:center;gap:20px">
+        <div class="snet__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></div>
+        <div style="flex:1"><h4 style="font-size:1.15rem">Chakra Raja Kan</h4><span class="handle">@chakrarajakan</span><p>El día a día del director académico y creador del sistema.</p></div>
+        <span class="snet__go" style="position:static"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="band">
+  <div class="wrap">
+    <div class="shead center reveal">
+      <span class="eyebrow" style="justify-content:center">Antes de reservar</span>
+      <h2 class="section-title">Preguntas <span class="gold">frecuentes</span></h2>
+    </div>
+    <div class="faq reveal">
+      <details class="qa"><summary>¿Necesito experiencia previa o flexibilidad? <span class="pm"></span></summary><div class="qa__a">No. IKY no espera habilidades físicas, agilidad ni flexibilidad previas. El sistema te da las mejores herramientas de biomecánica para mejorar profundamente tu práctica de asanas de forma segura, paso a paso.</div></details>
+      <details class="qa"><summary>¿En qué idioma se dicta? <span class="pm"></span></summary><div class="qa__a">Las clases se imparten en español con traducción consecutiva al inglés durante todo el curso. El organizador también habla francés.</div></details>
+      <details class="qa"><summary>¿Cómo reservo mi cupo? <span class="pm"></span></summary><div class="qa__a">Aseguras tu lugar con solo el 10% del valor de tu acomodación. El saldo restante lo cancelas a tu llegada a Ishka Center. Escríbenos por WhatsApp para iniciar tu reserva.</div></details>
+      <details class="qa"><summary>¿Cuándo inicia y cuánto dura? <span class="pm"></span></summary><div class="qa__a">El profesorado inicia el 26 de julio de 2026 y dura 21 días (22 noches de alojamiento). Te pedimos llegar un día antes del inicio y salir un día después del cierre.</div></details>
+      <details class="qa"><summary>¿La alimentación es vegetariana? <span class="pm"></span></summary><div class="qa__a">Sí. Encontrarás cocina con ingredientes del territorio colombiano. Hay opciones vegetariana, ovo-lacto vegetariana y vegana. Si tienes necesidades dietéticas especiales, avísanos al reservar.</div></details>
+      <details class="qa"><summary>¿Cuál es la política de cancelación? <span class="pm"></span></summary><div class="qa__a">La reserva requiere un depósito del 10% del valor de la acomodación, que no es reembolsable si se cancela. El resto del pago se completa a tu llegada. La certificación depende del cumplimiento de las condiciones académicas y de asistencia establecidas por el director académico.</div></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="final">
+  <div class="final__bg"><img src="assets/img/g10.webp" alt=""></div>
+  <div class="wrap">
+    <span class="eyebrow reveal" style="justify-content:center;color:var(--gold-bright)">Cupos limitados · Máximo 35 participantes</span>
+    <h2 class="reveal d1">Tu camino comienza<br>el 26 de julio</h2>
+    <p class="reveal d2">Conviértete en uno de los instructores de yoga más completos del mundo. Empieza por el primer paso: asegura tu lugar hoy.</p>
+    <div class="hero__cta reveal d3">
+      <a href="https://wa.me/573013473398?text=Hola%20IKY,%20quiero%20reservar%20mi%20cupo%20del%20profesorado%20de%20julio%202026" target="_blank" rel="noopener" class="btn btn--gold">Reserva con el 10% por WhatsApp</a>
+      <a href="#agenda" class="btn btn--ghost">Agenda con el Maestro</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <a href="#top" class="brand"><span class="brand__badge"><img src="assets/img/logo.png" alt="IKY"></span><span class="brand__txt">IKY<small>Ishka Kankueb Yoga</small></span></a>
+        <p>Escuela de yoga y meditación clásica y moderna. Cosmovisión y práctica maya. Cali, Colombia · desde 2017.</p>
+      </div>
+      <div>
+        <h5>Navegación</h5>
+        <ul>
+          <li><a href="#sistema">El Sistema</a></li>
+          <li><a href="#programa">Programa</a></li>
+          <li><a href="#hospedaje">Hospedaje</a></li>
+          <li><a href="#precios">Precios</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Comunidad</h5>
+        <ul>
+          <li><a href="https://www.instagram.com/iky.system/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.facebook.com/yoga.iky" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.tiktok.com/@yoga.iky" target="_blank" rel="noopener">TikTok</a></li>
+          <li><a href="https://www.bookyogaretreats.com" target="_blank" rel="noopener">Book Yoga Retreat</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contacto</h5>
+        <ul>
+          <li><a href="https://wa.me/573013473398" target="_blank" rel="noopener">WhatsApp +57 301 347 3398</a></li>
+          <li><a href="https://share.google/b1KImHfj9xA5qail7" target="_blank" rel="noopener">Ishka Center · Cali</a></li>
+          <li><a href="#agenda">Agenda una videollamada</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 IKY — Ishka Kankueb Yoga · ikytraining.com</span>
+      <span>Yoga para la humanidad actual.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ WHATSAPP FLOAT ============ -->
+<a class="wa" href="https://wa.me/573013473398?text=Hola%20IKY,%20me%20interesa%20el%20profesorado%20de%20yoga%20de%20julio%202026" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2Zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.5-1.2-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .5l-.3.5c-.1.2-.3.3-.1.6.1.3.6 1.1 1.4 1.8 1 .9 1.8 1.1 2 1.2.3.1.4.1.6-.1l.7-.9c.2-.3.4-.2.6-.1l1.8.9c.3.1.4.2.5.3.1.2.1.8-.1 1.5Z"/></svg>
+</a>
+<span class="wa__tip" id="waTip">¿Dudas? Escríbenos 👋</span>
+
+<!-- thumbnail for bundler -->
+<template id="__bundler_thumbnail">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" fill="#0c0a08"/><text x="50" y="58" font-family="Oswald,sans-serif" font-size="34" font-weight="700" text-anchor="middle"><tspan fill="#c0392b">i</tspan><tspan fill="#f5efe4">K</tspan><tspan fill="#e8a33d">Y</tspan></text></svg>
+</template>
+
+<script src="assets/js/app.js"></script>
+
+<!-- Cal.com inline embed · videollamada con el Maestro -->
+<script type="text/javascript">
+  (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+  Cal("init", "maestro", {origin:"https://app.cal.com"});
+  Cal.ns.maestro("inline", {
+    elementOrSelector:"#my-cal-inline-maestro",
+    config: {"layout":"month_view","useSlotsViewOnSmallScreen":"true"},
+    calLink: "ikymotionhubmkt/maestro",
+  });
+  Cal.ns.maestro("ui", {"cssVarsPerTheme":{"light":{"cal-brand":"#292929"},"dark":{"cal-brand":"#d4c031"}},"hideEventTypeDetails":false,"layout":"month_view"});
+</script>
+</body>
+</html>
