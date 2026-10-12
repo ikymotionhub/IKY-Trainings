@@ -111,11 +111,13 @@
     a.addEventListener("click", function (e) {
       var id = a.getAttribute("href");
       if (id.length < 2) return;
-      var el = document.querySelector(id);
-      if (!el) return;
-      e.preventDefault();
-      var y = el.getBoundingClientRect().top + window.scrollY - 70;
-      window.scrollTo({ top: y, behavior: "smooth" });
+      try {
+        var el = document.querySelector(id);
+        if (!el) return;
+        e.preventDefault();
+        var y = el.getBoundingClientRect().top + window.scrollY - 70;
+        window.scrollTo({ top: y, behavior: "smooth" });
+      } catch (err) {}
     });
   });
 
@@ -147,11 +149,11 @@
      - No borres las comillas ni la coma del final de cada línea.
      ============================================================ */
   var STRIPE_LINKS = {
-    carpa:         "",   // ◀ CAMPING · US$590
-    dormitorio:    "",   // ◀ DORMITORIO COMPARTIDO · US$850
-    privada:       "",   // ◀ HABITACIÓN PRIVADA · US$1,150
-    apartaestudio: "",   // ◀ LOFT PRIVADO · US$1,450
-    loft_premium:  "",   // ◀ LOFT PREMIUM · US$2,950
+    carpa:         "",   // ◀ CAMPING · $3.900.000 COP
+    dormitorio:    "",   // ◀ DORMITORIO COMPARTIDO · $4.900.000 COP
+    privada:       "",   // ◀ HABITACIÓN PRIVADA · $6.000.000 COP
+    apartaestudio: "",   // ◀ LOFT PRIVADO · $7.000.000 COP
+    loft_premium:  "",   // ◀ LOFT PREMIUM · $10.500.000 COP
     lujo:          ""    // ◀ (acomodación extra, opcional)
   };
   var WA_RESERVE = "https://wa.me/573013473398?text=Hola%20IKY,%20quiero%20reservar%20con%20el%2010%25%20mi%20cupo%20del%20profesorado%20(noviembre%202026).%20Acomodaci%C3%B3n%3A%20";
